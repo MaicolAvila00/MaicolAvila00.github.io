@@ -80,8 +80,12 @@ p {
 	 
 	margin-top: -140px;
     	margin-left: 450px;
-	height: 220px; /* Mantiene la proporción de la imagen */
 	display: flex;
+	max-width: 200px; /* Ancho máximo para ambas imágenes */
+	    max-height: 200px; /* Altura máxima para ambas imágenes */
+	    width: auto; /* Ajusta automáticamente el ancho */
+	    height: auto; /* Ajusta automáticamente la altura */
+	    object-fit: contain; /* Contiene la imagen dentro del cuadro manteniendo la proporción */
 }
 
 .project {
